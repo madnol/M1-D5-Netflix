@@ -36,20 +36,36 @@ footer .btn {
 }
 
 .dropdown-toggle::after {
-	margin-left: 0.255em;
 	margin-left: 1.225em;
 }
 
 #user {
 	top: 10px;
 }
-.dropdown-menu,
-.dropdown-item {
-	background-color: black !important;
-	color: white !important;
+
+h5 {
+	color: white;
 }
 
-button:active {
-	background-color: gray;
-	border: 1px solid white;
+.row img {
+	width: 12em;
+}
+
+.footer a {
+	color: gray;
+}
+.footer p {
+	color: gray;
+}
+
+.dropdown-item:hover {
+	background-color: grey;
+}
+
+.btn:hover {
+	box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+}
+
+nav {
+	margin-right: 30px;
 }
