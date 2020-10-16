@@ -48,3 +48,8 @@ footer .btn {
 	background-color: black !important;
 	color: white !important;
 }
+
+button:active {
+	background-color: gray;
+	border: 1px solid white;
+}
