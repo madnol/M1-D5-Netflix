@@ -1,0 +1,21 @@
+body {
+	background-color: #101010;
+}
+
+nav {
+	background-color: #101010 !important;
+}
+
+/*foooter*/
+
+footer {
+	height: 70px;
+}
+
+footer li {
+
+}
+
+footer .btn {
+	border: solid 3px #5a5a5a;
+}
