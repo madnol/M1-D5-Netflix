@@ -30,3 +30,12 @@ footer .btn {
 .move {
 	display: flex;
 }
+
+.dropdown {
+	top: -10px;
+}
+
+.dropdown-toggle::after {
+	margin-left: 0.255em;
+	margin-left: 1.225em;
+}
