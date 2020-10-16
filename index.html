@@ -16,12 +16,14 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="main.css" />
-		<title>Hello, world!</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+">
+		<title>Netflix</title>
 	</head>
 	<body>
         <!---::::::::::::::::::::::::Navbar:::::::::::::::::::::::::::::::::-->
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand" href="#">Navbar</a>
+			<a class="navbar-brand" href="#"><img src="image\logo\netflix-logo.png" alt=""></a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -71,9 +73,8 @@
 						placeholder="Search"
 						aria-label="Search"
 					/>
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-						Search
-					</button>
+					<button style="font-size:24px"><i class="fa fa-search"></i></button>
+
 				</form>
 			</div>
         </nav>
@@ -82,14 +83,16 @@
         <footer class="text-white">
             
             <div class="container">
-                <div class="row">
+                <div class="row cols-xl-4">
                 <div class="col-xl-3">
             <ul>
                 <li>Audio and Subtitles</li>
                 <li>Media Center</li>
                 <li>Privacy</li>
-                <li>Contact Us</li>
-            </ul>
+				<li>Contact Us</li>
+				<li><button type="button" class=" text-white btn mt-3">Service Code</button></li>
+			</ul>
+			
             </div>
             <div class="col-xl-3">
             <ul>
@@ -113,8 +116,8 @@
                 <li>Corporate information</li>
             </ul>
             </div>
-</div>
-            <button type="button" class=" text-white btn ">Service Code</button>
+			</div>
+            
             </div>
         </footer>
 		<!-- Optional JavaScript -->

@@ -5,6 +5,9 @@ body {
 nav {
 	background-color: #101010 !important;
 }
+nav img {
+	height: 3em;
+}
 
 /*foooter*/
 
@@ -12,8 +15,12 @@ footer {
 	height: 70px;
 }
 
-footer li {
+footer ul {
+	display: inline-block;
+}
 
+footer ul li {
+	list-style-type: none;
 }
 
 footer .btn {
