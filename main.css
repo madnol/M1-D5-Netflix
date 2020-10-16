@@ -26,3 +26,7 @@ footer ul li {
 footer .btn {
 	border: solid 3px #5a5a5a;
 }
+
+.move {
+	display: flex;
+}
